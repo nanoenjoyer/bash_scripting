@@ -20,6 +20,7 @@ read second_num
 # after 1 (just like b comes after a), it does this by comparing characters
 # in each string from left to right, and on the first difference found, it
 # does the comparison and returns either true or false.
+# the spaces between the [[]] and the values inside are mandatory.
 # also you have to use '$' for variables inside a [[]].
 if [[ $first_num -gt $second_num ]]; then
 	echo "$first_num is greater than $second_num"
